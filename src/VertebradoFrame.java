@@ -48,7 +48,7 @@ public class VertebradoFrame extends javax.swing.JFrame {
         jLabel1.setText("Vertebrados");
 
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { "Camello", "Vaca", "Paloma", "Tiburón" };
+            String[] strings = { "Camello", "Vaca", "Paloma", "Tiburón", "Perro" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });

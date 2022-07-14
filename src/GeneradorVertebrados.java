@@ -1,6 +1,6 @@
 public class GeneradorVertebrados {
     public static Vertebrado[] generarArrayVertebrados() {
-        Vertebrado[] miVertebrados = new Vertebrado[4];
+        Vertebrado[] miVertebrados = new Vertebrado[5];
         miVertebrados[0] = new Vertebrado("Camello", "Mamífero");
         miVertebrados[1] = new Vertebrado("Vaca", "Mamífero");
         miVertebrados[2] = new Vertebrado("Tiburón", "Pez");
